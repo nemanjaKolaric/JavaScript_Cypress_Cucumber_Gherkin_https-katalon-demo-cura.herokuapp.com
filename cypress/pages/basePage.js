@@ -1,4 +1,4 @@
-class basePage {
+class BasePage {
     get makeAppointment() {
         return cy.get('#btn-make-appointment')
     }
@@ -84,4 +84,4 @@ class basePage {
     }
 
 }
-export default new basePage()
+export default new BasePage()
